@@ -1,0 +1,9 @@
+.icon-social a {
+  color: #615756;
+  font-size: 50px;
+}
+
+.icon-social a:hover {
+  color: #50d890;
+  transition: 0.6s ease-in-out;
+}

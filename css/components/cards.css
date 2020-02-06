@@ -1,0 +1,35 @@
+/* Your card CSS file */
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-wrap;
+  justify-content: center;
+  max-width: 100%;
+}
+
+.card-feature {
+  text-align: center;
+  max-width: 250px;
+  min-width: 200px;
+  min-height: 250px;
+  font-size: 16px;
+  background-color: white;
+  border: 1px solid #50d890;
+  margin: 30px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+}
+
+.card-feature img {
+  padding-top: 16px;
+  max-width: 124px;
+  height: 124px;
+  object-fit: cover;
+}
+
+.card-feature h3 {
+  font-size: 24px;
+}
+.card-feature h3, .card-feature p {
+  margin: 0;
+  padding: 8px;
+}
